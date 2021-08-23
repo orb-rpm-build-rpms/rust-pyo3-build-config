@@ -5,7 +5,7 @@
 %global crate pyo3-build-config
 
 Name:           rust-%{crate}
-Version:        0.14.2
+Version:        0.14.3
 Release:        1%{?dist}
 Summary:        Build configuration for the PyO3 ecosystem
 
@@ -130,5 +130,8 @@ which use "abi3-py39" feature of "%{crate}" crate.
 %endif
 
 %changelog
+* Mon Aug 23 2021 Christian Heimes <cheimes@redhat.com> - 0.14.3-1
+- Upstream release 0.14.3 (rhbz#1994946)
+
 * Wed Aug 18 2021 Christian Heimes <cheimes@redhat.com> - 0.14.2-1
 - Initial package
