@@ -1,0 +1,3 @@
+[requires]
+test = ["python3"]
+
