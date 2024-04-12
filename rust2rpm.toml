@@ -4,5 +4,6 @@ cargo-toml-patch-comments = [
 ]
 
 [requires]
+lib = ["python3"]
 test = ["python3"]
 

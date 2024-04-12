@@ -29,6 +29,7 @@ Build configuration for the PyO3 ecosystem.}
 %package        devel
 Summary:        %{summary}
 BuildArch:      noarch
+Requires:       python3
 
 %description    devel %{_description}
 
