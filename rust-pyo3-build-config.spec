@@ -5,16 +5,13 @@
 %global crate pyo3-build-config
 
 Name:           rust-pyo3-build-config
-Version:        0.22.0
+Version:        0.22.2
 Release:        %autorelease
 Summary:        Build configuration for the PyO3 ecosystem
 
 License:        MIT OR Apache-2.0
 URL:            https://crates.io/crates/pyo3-build-config
 Source:         %{crates_source}
-# Manually created patch for downstream crate metadata changes
-# * drop MSVC- and MinGW-only "python3-dll-a" dependency
-Patch:          pyo3-build-config-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 %if %{with check}

@@ -1,7 +1,6 @@
-[package]
-cargo-toml-patch-comments = [
-    "drop MSVC- and MinGW-only \"python3-dll-a\" dependency",
-]
+[features]
+# hide MSVC- and MinGW-only "python3-dll-a" dependency
+hide = ["python3-dll-a"]
 
 [requires]
 lib = ["python3"]
