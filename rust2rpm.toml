@@ -1,6 +1,6 @@
 [features]
-# hide MSVC- and MinGW-only "python3-dll-a" dependency
-hide = ["python3-dll-a"]
+# hide a MSVC- and MinGW-only feature
+hide = ["generate-import-lib"]
 
 [requires]
 lib = ["python3"]
